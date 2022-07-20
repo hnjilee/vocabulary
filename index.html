@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A vocabulary list which scrolls into checked words"
+    />
+    <meta name="author" content="Hyunji Lee" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Today's Vocabulary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ce04dd2fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <i class="fa-solid fa-square-check"></i>
+        Today's Vocabulary
+      </a>
+      <button class="header__scroll">scroll</button>
+      <div class="header__bubble"></div>
+    </header>
+
+    <!-- Words list -->
+    <ul class="words">
+      <li class="word">
+        <input type="checkbox" class="word__checkbox" />
+        <div class="word__content">
+          <span>word</span>
+          <span>단어</span>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Arrow-up -->
+    <button class="arrow-up">
+      <i class="fa-solid fa-circle-arrow-up"></i>
+    </button>
+  </body>
+</html>
