@@ -78,3 +78,9 @@ function onScrollClick() {
   }
   checked[i++].scrollIntoView({ block: 'center', behavior: 'smooth' });
 }
+
+// Handle the arrow-up button click
+const arrowUp = document.querySelector('.arrow-up');
+arrowUp.addEventListener('click', () =>
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+);
