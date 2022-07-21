@@ -84,3 +84,8 @@ const arrowUp = document.querySelector('.arrow-up');
 arrowUp.addEventListener('click', () =>
   window.scrollTo({ top: 0, behavior: 'smooth' })
 );
+
+// Handle the bubble close button click
+const speechBubble = document.querySelector('.header__bubble');
+const bubbleClose = document.querySelector('.bubble__close');
+bubbleClose.addEventListener('click', () => speechBubble.remove());

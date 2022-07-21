@@ -131,6 +131,12 @@ ul {
   z-index: 0;
 }
 
+.bubble__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 /* Words list */
 .words {
   min-height: 100vh;
