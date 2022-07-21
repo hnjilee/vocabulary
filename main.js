@@ -1,7 +1,7 @@
 'use strict';
 
 const checked = [];
-
+let i = 0;
 loadWords() //
   .then(words => {
     const wordListItems = displayWords(words);
@@ -12,6 +12,10 @@ loadWords() //
     wordsList.addEventListener('change', e =>
       onCheckboxChange(e, wordListItems)
     );
+
+    // Scroll into checked words one by one on button click
+    const scroll = document.querySelector('.header__scroll');
+    scroll.addEventListener('click', () => onScrollClick());
   })
   .catch(console.log);
 
@@ -66,4 +70,11 @@ function onCheck(word) {
 function onUncheck(word) {
   const index = checked.indexOf(word);
   checked.splice(index, 1);
+}
+
+function onScrollClick() {
+  if (i >= checked.length) {
+    i = 0;
+  }
+  checked[i++].scrollIntoView({ block: 'center', behavior: 'smooth' });
 }
