@@ -1,0 +1,104 @@
+{
+  "words": [
+    {
+      "id": 0,
+      "eng": "raise",
+      "kor": "들어올리다"
+    },
+    {
+      "id": 1,
+      "eng": "draw",
+      "kor": "그리다"
+    },
+    {
+      "id": 2,
+      "eng": "coziness",
+      "kor": "아늑함"
+    },
+    {
+      "id": 3,
+      "eng": "confirm",
+      "kor": "확정하다"
+    },
+    {
+      "id": 4,
+      "eng": "sustain",
+      "kor": "지속시키다"
+    },
+    {
+      "id": 5,
+      "eng": "bring",
+      "kor": "가져오다"
+    },
+    {
+      "id": 6,
+      "eng": "exercise",
+      "kor": "운동"
+    },
+    {
+      "id": 7,
+      "eng": "commit",
+      "kor": "저지르다"
+    },
+    {
+      "id": 8,
+      "eng": "serve",
+      "kor": "제공하다"
+    },
+    {
+      "id": 9,
+      "eng": "urge",
+      "kor": "권고하다"
+    },
+    {
+      "id": 10,
+      "eng": "available",
+      "kor": "이용할 수 있는"
+    },
+    {
+      "id": 11,
+      "eng": "suggest",
+      "kor": "제안하다"
+    },
+    {
+      "id": 12,
+      "eng": "strike",
+      "kor": "치다"
+    },
+    {
+      "id": 13,
+      "eng": "lead",
+      "kor": "이끌다"
+    },
+    {
+      "id": 14,
+      "eng": "definitely",
+      "kor": "분명히"
+    },
+    {
+      "id": 15,
+      "eng": "since",
+      "kor": "...부터"
+    },
+    {
+      "id": 16,
+      "eng": "convince",
+      "kor": "확신시키다"
+    },
+    {
+      "id": 17,
+      "eng": "effect",
+      "kor": "영향"
+    },
+    {
+      "id": 18,
+      "eng": "claim",
+      "kor": "주장하다"
+    },
+    {
+      "id": 19,
+      "eng": "right",
+      "kor": "옳은"
+    }
+  ]
+}
