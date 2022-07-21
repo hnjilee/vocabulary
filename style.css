@@ -19,6 +19,7 @@
 
   /* Size */
   --size-border-radius: 4px;
+  --size-checkbox: 1.25rem;
 }
 
 * {
@@ -43,6 +44,12 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 /* Header */
@@ -122,4 +129,48 @@ button {
   border-width: 0 6px 11px;
   border-color: var(--color-black) transparent;
   z-index: 0;
+}
+
+/* Words list */
+.words {
+  min-height: 100vh;
+  padding: 3em;
+  padding-top: 5em;
+  background-color: var(--color-grey);
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  max-width: 62.5rem;
+  padding: 1.5em;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: var(--size-border-radius);
+  background-color: var(--color-white);
+}
+
+.word__checkbox {
+  width: var(--size-checkbox);
+  height: var(--size-checkbox);
+  margin: 0;
+}
+
+.word__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0.5em;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+}
+
+/* Arrow-up */
+.arrow-up {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 3rem;
+  color: var(--color-green);
 }
